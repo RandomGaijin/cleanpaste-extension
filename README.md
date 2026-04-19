@@ -1,2 +1,21 @@
 # cleanpaste-extension
-Extension to check and clean copied text to a format that is readable
+
+A simple Chrome extension that cleans messy copied text before pasting.
+
+## Features
+-Fix broken line breaks (PDF/web copy)
+-Normalize quotes
+-Preserve paragraphs
+-Detect code and avoid breaking it
+
+## Usage
+1. Copy Text
+2. Open extension
+3. CLick "Load Clipboard"
+4. Click "Clean"
+
+## Status
+MVP complete
+
+## License
+This project is not licensed for reuse at this time.
