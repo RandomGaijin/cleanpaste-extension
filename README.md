@@ -2,6 +2,9 @@
 
 A simple Chrome extension that cleans messy copied text before pasting.
 
+## License
+This project is not licensed for reuse at this time.
+
 ## Features
 -Fix broken line breaks (PDF/web copy)
 -Normalize quotes
@@ -17,5 +20,5 @@ A simple Chrome extension that cleans messy copied text before pasting.
 ## Status
 MVP complete
 
-## License
-This project is not licensed for reuse at this time.
+## Preview
+!extension UI(Clean Paste Extension UI)
