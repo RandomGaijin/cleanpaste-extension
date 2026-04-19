@@ -1,9 +1,26 @@
 body {
-    font-family: helvetica, sans-serif;
-    width: 300px;
-    padding: 20px;
-    border: 1px solid #ccc;
+    font-family:  -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    width: 320px;
+    padding: 12px;
+    background: #f9fafb;
+    color: #111827;
+    border-radius: 8px;
 
+}
+
+h1 {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+
+label{
+    font-size: 12px;
+    font-weight: 600;
+    display: block;
+    margin-bottom: 4px;
+    color: #6b7280;
+    letter-spacing: 0.3px;
 }
 
 h2 {
@@ -12,19 +29,63 @@ h2 {
 
 textarea {
     width: 100%;
-    height: 70px;
+    height: 80px;
+    padding: 8px;
+    border-radius: 6px;
+    border: 1px solid #e5e7eb;
+    background: white;
+    font-size: 13px;
     margin-bottom: 10px;
     resize: none;
 }
 
+textarea:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 1px #3b82f6;
+}
+
 button {
     width: 100%;
-    padding: 8px;
-   margin-bottom: 10px;
+    padding: 9px;
+    border-radius: 6px;
+    border: none;
+    font-size: 13px;
+    margin-bottom: 8px;
     cursor: pointer;
+}
+
+/*primary button */
+#cleanBtn {
+    background: #3b82f6;
+    color: white;
+    font-weight: 600;
+}
+
+#cleanBtn:hover {
+    background: #2563eb;
+}
+
+/*secondarty button */
+#readBtn, #copyBtn {
+    background: #f3f4f6;
+    color: #111827;
+}
+
+#readBtn:hover, #copyBtn:hover {
+    background: #e5e7eb;
+}
+
+textarea + button {
+    margin-top: -2px;
+}
+
+button + textarea {
+    margin-top: 6px;
 }
 
 #status {
     font-size: 12px;
-    color: #0c7403;
+    color: #6b7280;
+    margin-top: 4px;
 }
